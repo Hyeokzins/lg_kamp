@@ -3,6 +3,8 @@
 
 ### ollama 모델 설치 커맨드 파일입니다
 
+파워셀을 관리자 권한으로 실행한뒤
+Set-ExcutionPolicy RemoteSigned -Scope CurrentUser
 
 .\install_models.ps1
 
