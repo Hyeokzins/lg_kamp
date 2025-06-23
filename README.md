@@ -5,7 +5,7 @@
 
 파워셀을 관리자 권한으로 실행한뒤
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-
+Set-ExecutionPolicy RemoteSigned -Scope Process -ExecutionPolicy Bypass
 .\install_models.ps1
 
 이 코드로 실행하면 됩니다 디렉토리 경로 드가서
