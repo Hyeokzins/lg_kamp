@@ -14,4 +14,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 ### 가상환경 설치
 
-conda env create
+conda env create -f environment.yml
+
