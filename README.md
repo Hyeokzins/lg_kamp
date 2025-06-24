@@ -10,3 +10,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 .\install_models.ps1
 
 이 코드로 실행하면 됩니다 디렉토리 경로 드가서
+
+
+### 가상환경 설치
+
+conda env create
