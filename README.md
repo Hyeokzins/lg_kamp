@@ -5,7 +5,7 @@
 conda create -n lg python=3.9
 ```
 
-### cudnn 다운로드 경로
+### cudnn 다운로드 경로 (맨밑 파일)
 https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
 
 
