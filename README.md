@@ -22,9 +22,9 @@ pip install tensorflow-gpu==2.10.0
 pip install pandas matplotlib seaborn scikit-learn
 ```
 ### 주피터 노트북 설치
-'''bash
+```bash
 pip install jupyter
-'''
+```
 
 
 
