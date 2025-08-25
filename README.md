@@ -4,6 +4,11 @@
 ```bash
 conda create -n lg python=3.9
 ```
+
+### cudnn 다운로드 경로
+https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
+
+
 ### torch-gpu
 ```bash
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118
@@ -16,8 +21,10 @@ pip install tensorflow-gpu==2.10.0
 ```bash
 pip install pandas matplotlib seaborn scikit-learn
 ```
-### cudnn 다운로드 경로
-https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
+### 주피터 노트북 설치
+'''bash
+pip install jupyter
+'''
 
 
 
