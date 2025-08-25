@@ -19,11 +19,21 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 ```bash
 conda env create -f environment.yml
 ```
-
-
+### 가상환경 설치(머신러닝)
+```bash
+conda create -n lg python=3.9
+```
+### torch-gpu
+```bash
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118
+```
+### tensorflow-gpu
+```
+pip install tensorflow-gpu==2.10.0
+```
 ### 라이브러리 설치
 ```bash
-pip install tensorflow==2.12.0 torch==2.4.1 pandas matplotlib seaborn scikit-learn
+pip install pandas matplotlib seaborn scikit-learn
 ```
 ### cudnn 다운로드 경로
 https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
