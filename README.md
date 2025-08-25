@@ -1,4 +1,4 @@
-# lg_kamp
+# lg_kamp 머신러닝 환경
 
 ### 가상환경 설치(머신러닝)
 ```bash
@@ -39,7 +39,7 @@ pip install jupyter
 
 
 
-# lg_kamp
+# lg_kamp llm 환경
 
 
 ### ollama 모델 설치 커맨드 
