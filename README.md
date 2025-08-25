@@ -19,3 +19,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 ```bash
 conda env create -f environment.yml
 ```
+
+
+### cudnn 다운로드 경로
+https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
