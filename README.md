@@ -8,6 +8,9 @@ conda create -n lg python=3.9
 ### cudnn 다운로드 경로 (맨밑 파일)
 https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installers/11.8/
 
+### vscode
+https://code.visualstudio.com/download
+
 
 ### torch-gpu
 ```bash
@@ -19,7 +22,11 @@ pip install tensorflow-gpu==2.10.0
 ```
 ### 라이브러리 설치
 ```bash
-pip install pandas matplotlib seaborn scikit-learn
+pip install pandas matplotlib seaborn scikit-learn imbalanced-learn
+```
+### 불균형데이터 라이브러리
+```bash
+pip install -U imbalanced-learn
 ```
 ### 주피터 노트북 설치
 ```bash
