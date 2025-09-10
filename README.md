@@ -1,5 +1,12 @@
 # lg_kamp 머신러닝 환경
 
+###
+https://ollama.com/download
+https://www.docker.com/get-started/
+https://nodejs.org/en/download
+
+
+
 ### 가상환경 설치(머신러닝)
 ```bash
 conda create -n lg python=3.9
