@@ -2,7 +2,9 @@
 
 ###
 https://ollama.com/download
+
 https://www.docker.com/get-started/
+
 https://nodejs.org/en/download
 
 
