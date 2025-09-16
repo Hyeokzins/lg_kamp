@@ -21,38 +21,6 @@ https://developer.download.nvidia.com/compute/redist/cudnn/v8.6.0/local_installe
 https://code.visualstudio.com/download
 
 
-### torch-gpu
-```bash
-pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu118
-```
-### tensorflow-gpu
-```
-pip install tensorflow-gpu==2.10.0
-```
-### 라이브러리 설치
-```bash
-pip install pandas matplotlib seaborn scikit-learn imbalanced-learn
-```
-### 불균형데이터 라이브러리
-```bash
-pip install -U imbalanced-learn
-```
-### 주피터 노트북 설치
-```bash
-pip install jupyter
-```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # lg_kamp llm 환경
