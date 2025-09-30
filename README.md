@@ -8,7 +8,14 @@ https://www.docker.com/get-started/
 https://nodejs.org/en/download
 
 
+#
 
+```bash
+
+wsl --update
+docker run --name pgvector-container -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -e POSTGRES_DB=mydatabase -p 5432:5432 -d ankane/pgvector
+npx n8n start
+```
 ### 가상환경 설치(머신러닝)
 ```bash
 conda create -n lg python=3.9
